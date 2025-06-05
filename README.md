@@ -1,6 +1,6 @@
-# Project 7: Electric Motors
-# Maintaining a Desired Flow Rate through a Power Valve using Direct Current
+# Project #8: Insulin Control
+# Configuring an Artificial Pancreas for Closed-Loop Monitoring of Blood Glucose
 
-● Implemented a controlled voltage source to modulate torque output of a DC motor with back electromotive force           
-● Connected the rotational-electromechanical converter and gear box to a rotating valve via a lumped inertia block            
-● Integrated a 1D-Lookup Table in Simulink to control flow rate while restricting valve rotation between 0 and 2π rad          
+● Incorporated a glucose monitor and insulin pump with the defined control algorithm for the biofeedback pathway
+● Integrated proportional, integral and derivative (PID) with model predictive control (MPC) to account for variance
+● Refined parameters of adaptive control to maintain a glucose homeostasis set-point between 4 and 6 mmol/L
